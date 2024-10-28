@@ -110,6 +110,7 @@ module.exports = {
         "config/displays",
         "config/encoders",
         "config/keymap",
+        "config/layout",
         "config/kscan",
         "config/power",
         "config/underglow",
@@ -125,9 +126,10 @@ module.exports = {
           collapsed: true,
           items: [
             "development/hardware-integration/new-shield",
+            "development/hardware-integration/physical-layouts",
             "development/hardware-integration/hardware-metadata-files",
             "development/hardware-integration/boards-shields-keymaps",
-            "development/hardware-integration/studio-setup",
+            "development/hardware-integration/pinctrl",
             "development/hardware-integration/shift-registers",
             "development/hardware-integration/encoders",
           ],
@@ -155,7 +157,7 @@ module.exports = {
               },
               collapsed: true,
               items: [
-                "development/local-toolchain/setup/docker",
+                "development/local-toolchain/setup/container",
                 "development/local-toolchain/setup/native",
               ],
             },
